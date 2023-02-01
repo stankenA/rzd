@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>РЖД</title>
+  <link rel="stylesheet" href="./pages/index.css">
+</head>
+
+<body class="page">
+  <header class="header">
+    <div class="header__wrapper">
+      <div class="header__upper">
+        <div class="header__logo-container">
+          <a href="#" class="header__logo-link link"><img src="#" alt="Логотип РЖД" class="header__logo"></a>
+          <p class="header__logo-txt">
+            Северо-Западная пригородная пассажирская компания
+          </p>
+        </div>
+        <div class="header__right-side">
+          <a href="#" class="header__special-vision-link link">
+            <p class="header__special-vision-txt">
+              Версия для слабовидящих
+            </p>
+            <span class="header__special-vision-icon"></span>
+          </a>
+          <span class="header__line"></span>
+          <a href="#" class="header__profile-link link">
+            <span class="header__profile-icon"></span>
+          </a>
+        </div>
+      </div>
+      <div class="header__main">
+        <ul class="header__list">
+          <li class="header__list-item"><a href="#" class="header__link link">пассажирам</a></li>
+          <li class="header__list-item"><a href="#" class="header__link link">о компании</a></li>
+          <li class="header__list-item"><a href="#" class="header__link link">вопрос/ответ</a></li>
+          <li class="header__list-item"><a href="#" class="header__link link">пресс-центр</a></li>
+          <li class="header__list-item"><a href="#" class="header__link link">контакты</a></li>
+        </ul>
+        <form name="search-form" class="header__form">
+          <input type="search" class="header__input" id="search" name="headerSearch" autocomplete="off">
+          <button type="button" class="header__search-btn"></button>
+        </form>
+      </div>
+      <div class="header__main-mobile">
+
+      </div>
+      <div class="schedule">
+        <h2 class="schedule__title">Расписание движения и стоимости проезда</h2>
+        <div class="schedule__container">
+          <form name="search-form" class="schedule__form">
+            <input type="text" class="schedule__input" id="from" name="scheduleFrom" autocomplete="off"
+              placeholder="откуда">
+            <button type="button" class="schedule__swap-btn"></button>
+            <input type="text" class="schedule__input" id="to" name="scheduleTo" autocomplete="off" placeholder="куда">
+            <input type="date" class="schedule__input" id="date" name="scheduleDate" autocomplete="off">
+            <div class="schedule__search">
+              <button class="schedule__search-btn">найти</button>
+              <div class="schedule__checkbox-container">
+                <label for="choice" class="schedule__checkbox-label">
+                  <input type="checkbox" id="choice" name="choice" class="schedule__choice-checkbox">
+                  <span class="schedule__checkbox"></span>
+                </label>
+                <p class="schedule__checkbox-txt">Запомнить мой выбор</p>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </header>
+  <script src="./pages/index.js" defer></script>
+</body>
+
+</html>
