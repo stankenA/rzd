@@ -11,68 +11,206 @@
 
 <body class="page">
   <header class="header">
-    <div class="header__wrapper">
-      <div class="header__upper">
-        <div class="header__logo-container">
-          <a href="#" class="header__logo-link link"><img src="#" alt="Логотип РЖД" class="header__logo"></a>
-          <p class="header__logo-txt">
-            Северо-Западная пригородная пассажирская компания
+    <div class="header__upper">
+      <div class="header__logo-container">
+        <a href="#" class="header__logo-link link"><img src="./images/rzd__logo.svg" alt="Логотип РЖД"
+            class="header__logo"></a>
+        <p class="header__logo-txt">
+          Северо-Западная пригородная пассажирская компания
+        </p>
+      </div>
+      <div class="header__right-side">
+        <a href="#" class="header__special-vision-link link">
+          <p class="header__special-vision-txt">
+            Версия для слабовидящих
           </p>
+          <span class="header__special-vision-icon"></span>
+        </a>
+        <span class="header__line"></span>
+        <a href="#" class="header__profile-link link">
+          <span class="header__profile-icon"></span>
+        </a>
+      </div>
+    </div>
+    <div class="header__wrapper header__wrapper_main-page">
+      <div class="header__content">
+        <div class="header__main">
+          <ul class="header__list list">
+            <li class="header__list-item"><a href="#" class="header__link link">пассажирам</a></li>
+            <li class="header__list-item"><a href="#" class="header__link link">о компании</a></li>
+            <li class="header__list-item"><a href="#" class="header__link link">вопрос/ответ</a></li>
+            <li class="header__list-item"><a href="#" class="header__link link">пресс-центр</a></li>
+            <li class="header__list-item"><a href="#" class="header__link link">контакты</a></li>
+          </ul>
+          <form name="search-form" class="header__form">
+            <input type="search" class="header__input input" id="search" name="headerSearch" autocomplete="off">
+            <button type="button" class="header__search-btn button"></button>
+          </form>
         </div>
-        <div class="header__right-side">
-          <a href="#" class="header__special-vision-link link">
-            <p class="header__special-vision-txt">
-              Версия для слабовидящих
-            </p>
-            <span class="header__special-vision-icon"></span>
-          </a>
-          <span class="header__line"></span>
-          <a href="#" class="header__profile-link link">
-            <span class="header__profile-icon"></span>
-          </a>
+        <div class="header__main-mobile">
         </div>
-      </div>
-      <div class="header__main">
-        <ul class="header__list">
-          <li class="header__list-item"><a href="#" class="header__link link">пассажирам</a></li>
-          <li class="header__list-item"><a href="#" class="header__link link">о компании</a></li>
-          <li class="header__list-item"><a href="#" class="header__link link">вопрос/ответ</a></li>
-          <li class="header__list-item"><a href="#" class="header__link link">пресс-центр</a></li>
-          <li class="header__list-item"><a href="#" class="header__link link">контакты</a></li>
-        </ul>
-        <form name="search-form" class="header__form">
-          <input type="search" class="header__input" id="search" name="headerSearch" autocomplete="off">
-          <button type="button" class="header__search-btn"></button>
-        </form>
-      </div>
-      <div class="header__main-mobile">
-
-      </div>
-      <div class="schedule">
-        <h2 class="schedule__title">Расписание движения и стоимости проезда</h2>
-        <div class="schedule__container">
+        <div class="schedule">
+          <h2 class="schedule__title">Расписание движения и стоимости проезда</h2>
           <form name="search-form" class="schedule__form">
-            <input type="text" class="schedule__input" id="from" name="scheduleFrom" autocomplete="off"
-              placeholder="откуда">
-            <button type="button" class="schedule__swap-btn"></button>
-            <input type="text" class="schedule__input" id="to" name="scheduleTo" autocomplete="off" placeholder="куда">
-            <input type="date" class="schedule__input" id="date" name="scheduleDate" autocomplete="off">
-            <div class="schedule__search">
-              <button class="schedule__search-btn">найти</button>
-              <div class="schedule__checkbox-container">
-                <label for="choice" class="schedule__checkbox-label">
-                  <input type="checkbox" id="choice" name="choice" class="schedule__choice-checkbox">
-                  <span class="schedule__checkbox"></span>
-                </label>
-                <p class="schedule__checkbox-txt">Запомнить мой выбор</p>
+            <fieldset class="schedule__fieldset fieldset">
+              <input type="text" class="schedule__input input" id="from" name="from" autocomplete="off"
+                placeholder="откуда">
+              <button type="button" class="schedule__swap-btn button"></button>
+              <input type="text" class="schedule__input input" id="to" name="to" autocomplete="off" placeholder="куда">
+              <input type="date" class="schedule__input schedule__input_type_date input" id="when" name="when"
+                autocomplete="off">
+              <div class="schedule__search">
+                <button class="schedule__search-btn button">найти</button>
+                <div class="schedule__checkbox-container">
+                  <label for="remember" class="schedule__checkbox-label">
+                    <input type="checkbox" id="remember" name="remember" class="schedule__checkbox input">
+                    <span class="schedule__checkmark"></span>
+                    <p class="schedule__checkbox-txt">Запомнить мой выбор</p>
+                  </label>
+                </div>
               </div>
-            </div>
+            </fieldset>
           </form>
         </div>
       </div>
     </div>
   </header>
-  <script src="./pages/index.js" defer></script>
+  <main class="content">
+    <section class="info">
+      <div class="info__block">
+        <div class="info__swiper">
+          <ul class="info__swiper-wrapper swiper-wrapper list">
+            <li class="info__swiper-slide swiper-slide">
+              <img src="./images/swiper__slide_1.jpg" alt="Поезд в снегу" class="info__swiper-img">
+              <div class="info__swiper-slide-content">
+                <h2 class="info__swiper-title">Куда отправиться на зимние праздники?</h2>
+                <a href="#" class="info__swiper-link link">читать статью</a>
+              </div>
+            </li>
+            <li class="info__swiper-slide swiper-slide">
+              <img src="./images/swiper__slide_1.jpg" alt="Поезд в снегу" class="info__swiper-img">
+              <div class="info__swiper-slide-content">
+                <h2 class="info__swiper-title">Куда отправиться на зимние праздники?</h2>
+                <a href="#" class="info__swiper-link link">читать статью</a>
+              </div>
+            </li>
+            <li class="info__swiper-slide swiper-slide">
+              <img src="./images/swiper__slide_1.jpg" alt="Поезд в снегу" class="info__swiper-img">
+              <div class="info__swiper-slide-content">
+                <h2 class="info__swiper-title">Куда отправиться на зимние праздники?</h2>
+                <a href="#" class="info__swiper-link link">читать статью</a>
+              </div>
+            </li>
+          </ul>
+          <span class="info__swiper-button info__swiper-button_prev"></span>
+          <span class="info__swiper-button info__swiper-button_next"></span>
+          <span class="info__swiper-pagination"></span>
+        </div>
+      </div>
+      <div class="info__cells">
+        <div class="info__column">
+          <div class="info__cell info__cell_opened info__cell_type_privilege">
+            <h2 class="info__title">Льготы</h2>
+            <ul class="info__list list info__list_opened">
+              <li class="info__list-item">
+                <a href="#" class="info__link link">Федеральные льготы</a>
+              </li>
+              <li class="info__list-item">
+                <a href="#" class="info__link link">Региональные льготы</a>
+              </li>
+              <li class="info__list-item">
+                <a href="#" class="info__link link">Школьники и студенты</a>
+              </li>
+            </ul>
+            <span class="info__cell-btn"></span>
+          </div>
+          <div class="info__cell info__cell_type_work">
+            <h2 class="info__title">Режим работы</h2>
+            <ul class="info__list list">
+              <li class="info__list-item">
+                <a href="#" class="info__link link">Федеральные льготы</a>
+              </li>
+              <li class="info__list-item">
+                <a href="#" class="info__link link">Федеральные льготы</a>
+              </li>
+              <li class="info__list-item">
+                <a href="#" class="info__link link">Федеральные льготы</a>
+              </li>
+            </ul>
+            <span class="info__cell-btn info__cell-btn_rotate"></span>
+          </div>
+        </div>
+        <div class="info__column">
+          <div class="info__cell info__cell_type_scheme">
+            <h2 class="info__title">Схемы маршрутов</h2>
+            <ul class="info__list list">
+              <li class="info__list-item">
+                <a href="#" class="info__link link">Федеральные льготы</a>
+              </li>
+              <li class="info__list-item">
+                <a href="#" class="info__link link">Федеральные льготы</a>
+              </li>
+              <li class="info__list-item">
+                <a href="#" class="info__link link">Федеральные льготы</a>
+              </li>
+            </ul>
+            <span class="info__cell-btn info__cell-btn_rotate"></span>
+          </div>
+          <div class="info__cell info__cell_opened info__cell_type_economy">
+            <h2 class="info__title">Экономьте время и ресурсы</h2>
+            <ul class="info__list list info__list_opened">
+              <li class="info__list-item">
+                <a href="#" class="info__link link">Абонементные билеты</a>
+              </li>
+              <li class="info__list-item">
+                <a href="#" class="info__link link">Терминалы самообслуживания</a>
+              </li>
+              <li class="info__list-item">
+                <a href="#" class="info__link link">Мобильное приложение</a>
+              </li>
+              <li class="info__list-item">
+                <a href="#" class="info__link link">Единый комбинированный билет</a>
+              </li>
+            </ul>
+            <span class="info__cell-btn"></span>
+          </div>
+        </div>
+        <div class="info__column">
+          <div class="info__cell info__cell_opened info__cell_type_low-mob">
+            <h2 class="info__title">Маломобильные пассажиры</h2>
+            <ul class="info__list list info__list_opened">
+              <li class="info__list-item">
+                <a href="#" class="info__link link">Карта доступности объектов АО “СЗППК”</a>
+              </li>
+              <li class="info__list-item">
+                <a href="#" class="info__link link">Центр содействия мобильности</a>
+              </li>
+              <li class="info__list-item">
+                <a href="#" class="info__link link">Оформление заявок на услуги</a>
+              </li>
+            </ul>
+            <span class="info__cell-btn"></span>
+          </div>
+          <div class="info__cell info__cell_type_director">
+            <h2 class="info__title">Приемная генерального директора</h2>
+            <ul class="info__list list">
+              <li class="info__list-item">
+                <a href="#" class="info__link link">Федеральные льготы</a>
+              </li>
+              <li class="info__list-item">
+                <a href="#" class="info__link link">Федеральные льготы</a>
+              </li>
+              <li class="info__list-item">
+                <a href="#" class="info__link link">Федеральные льготы</a>
+              </li>
+            </ul>
+            <span class="info__cell-btn info__cell-btn_rotate"></span>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <script type="module" src="./pages/index.js" defer></script>
 </body>
 
 </html>

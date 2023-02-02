@@ -1,0 +1,6 @@
+.schedule__swap-btn {
+  width: 44px;
+  height: 44px;
+  background: url(../../../images/icon__swap.svg) no-repeat center;
+  margin: 0 5px;
+}

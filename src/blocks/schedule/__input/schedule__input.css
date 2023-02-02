@@ -1,0 +1,16 @@
+.schedule__input {
+  height: 48px;
+  width: 243px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.schedule__input[type="date"] {
+  width: 201px;
+  margin: 0 35px 0 22px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #687988;
+}
