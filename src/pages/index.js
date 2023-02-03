@@ -1,11 +1,31 @@
 import Swiper from 'https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.esm.browser.min.js';
 import Cell from '../components/Cell.js';
+import {
+  toInput,
+  fromInput,
+  swapBtn
+} from '../utils/constants.js'
 
-//Main page swiper
+//Main page info swap
+
+function swapInputValues(firstInput, secondInput) {
+  const firstValue = firstInput.value;
+  const secondValue = secondInput.value;
+
+  firstInput.value = secondValue;
+  secondInput.value = firstValue;
+}
+
+swapBtn.addEventListener('click', () => {
+  swapInputValues(toInput, fromInput);
+})
+
+//Main page info swiper
 const infoSwiper = new Swiper('.info__swiper', {
   slidesPerView: 1,
   spaceBetween: 60,
   grabCursor: true,
+  speed: 1000,
   loop: true,
   navigation: {
     nextEl: ".info__swiper-button_next",
@@ -17,6 +37,9 @@ const infoSwiper = new Swiper('.info__swiper', {
     renderBullet: function (index, className) {
       return '<span class="' + className + '">' + "</span>";
     },
+  },
+  autoplay: {
+    delay: 3000,
   },
 });
 
@@ -58,3 +81,14 @@ cellsArray.forEach((cell) => {
   cell.setEventListeners();
 })
 
+//Main page tourist swiper
+
+const touristSwiper = new Swiper('.tourist__swiper', {
+  slidesPerView: 4,
+  spaceBetween: 20,
+  grabCursor: true,
+  pagination: {
+    el: ".tourist__swiper-pagination",
+    type: "progressbar",
+  },
+});

@@ -1,3 +1,4 @@
 .header {
-  margin-top: 39px;
+  max-width: var(--content-width);
+  margin: 39px auto 0;
 }

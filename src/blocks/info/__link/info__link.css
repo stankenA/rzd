@@ -5,3 +5,8 @@
   text-decoration-line: underline;
   color: #FFFFFF;
 }
+
+.info__link:hover {
+  color: #EE3523;
+  opacity: 1;
+}

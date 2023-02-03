@@ -18,10 +18,14 @@ export default class Cell {
     this._button.classList.add('info__cell-btn_rotate');
   }
 
-  setEventListeners() {
-    this._cell.addEventListener('click', this._handleClick);
+  _checkClientWidth() {
     if (document.documentElement.clientWidth < 768) {
       this.close();
     }
+  }
+
+  setEventListeners() {
+    this._cell.addEventListener('click', this._handleClick);
+    this._checkClientWidth();
   }
 }
