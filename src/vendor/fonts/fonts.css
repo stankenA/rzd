@@ -1,6 +1,16 @@
 @font-face {
   font-family: 'Gilroy';
   font-style: normal;
+  font-weight: 250;
+  font-display: swap;
+  src: url(./Gilroy-UltraLight.woff2) format("woff2"),
+    url(./Gilroy-UltraLight.woff) format("woff"),
+    url(./Gilroy-UltraLight.ttf) format("ttf");
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  font-style: normal;
   font-weight: 400;
   font-display: swap;
   src: url(./Gilroy-Regular.woff2) format("woff2"),

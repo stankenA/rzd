@@ -4,5 +4,6 @@
   font-family: Gilroy, Arial, sans-serif;
   box-sizing: border-box;
   position: relative;
-  --content-width: 1320px;
+  --wrapper-width: 1320px;
+  --content-width: 874px;
 }

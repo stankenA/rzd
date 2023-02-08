@@ -2,6 +2,7 @@
 @import url(../vendor/fonts/fonts.css);
 @import url(https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css);
 
+/* Common styles */
 @import url(../blocks/page/page.css);
 @import url(../blocks/link/link.css);
 @import url(../blocks/list/list.css);
@@ -9,13 +10,12 @@
 @import url(../blocks/input/input.css);
 @import url(../blocks/button/button.css);
 
-
+/* Upper header */
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__upper/header__upper.css);
 @import url(../blocks/header/__logo-container/header__logo-container.css);
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/__logo-txt/header__logo-txt.css);
-
 @import url(../blocks/header/__right-side/header__right-side.css);
 @import url(../blocks/header/__special-vision-link/header__special-vision-link.css);
 @import url(../blocks/header/__special-vision-txt/header__special-vision-txt.css);
@@ -23,6 +23,7 @@
 @import url(../blocks/header/__line/header__line.css);
 @import url(../blocks/header/__profile-icon/header__profile-icon.css);
 
+/* Header nav */
 @import url(../blocks/header/__wrapper/header__wrapper.css);
 @import url(../blocks/header/__wrapper/_main-page/header__wrapper_main-page.css);
 @import url(../blocks/header/__content/header__content.css);
@@ -34,8 +35,7 @@
 @import url(../blocks/header/__input/header__input.css);
 @import url(../blocks/header/__search-btn/header__search-btn.css);
 
-@import url(../blocks/content/content.css);
-
+/* Schedule */
 @import url(../blocks/schedule/schedule.css);
 @import url(../blocks/schedule/__title/schedule__title.css);
 @import url(../blocks/schedule/__fieldset/schedule__fieldset.css);
@@ -48,6 +48,8 @@
 @import url(../blocks/schedule/__checkbox-label/schedule__checkbox-label.css);
 @import url(../blocks/schedule/__checkbox/schedule__checkbox.css);
 @import url(../blocks/schedule/__checkmark/schedule__checkmark.css);
+
+@import url(../blocks/index-content/index-content.css);
 
 @import url(../blocks/info/info.css);
 @import url(../blocks/info/__block/info__block.css);
@@ -117,6 +119,8 @@
 @import url(../blocks/app/__buttons/app__buttons.css);
 @import url(../blocks/app/__link/app__link.css);
 
+
+/* Footer */
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__content/footer__content.css);
 @import url(../blocks/footer/__upper/footer__upper.css);
@@ -138,4 +142,3 @@
 @import url(../blocks/footer/__link/footer__link.css);
 @import url(../blocks/footer/__bottom/footer__bottom.css);
 @import url(../blocks/footer/__bottom-txt/footer__bottom-txt.css);
-@import url(../blocks/footer);

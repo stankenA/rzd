@@ -1,4 +1,4 @@
 .content {
-  max-width: var(--content-width);
-  margin: 0 auto;
+  width: var(--content-width);
+  margin-right: 74px;
 }

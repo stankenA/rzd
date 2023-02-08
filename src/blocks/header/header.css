@@ -1,4 +1,4 @@
 .header {
-  max-width: var(--content-width);
-  margin: 39px auto 0;
+  max-width: var(--wrapper-width);
+  margin: 39px auto 40px;
 }

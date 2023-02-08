@@ -6,7 +6,7 @@ import {
   swapBtn
 } from '../utils/constants.js'
 
-//Main page info swap
+// Swap input values
 
 function swapInputValues(firstInput, secondInput) {
   const firstValue = firstInput.value;
