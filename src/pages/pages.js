@@ -1,5 +1,6 @@
 import TariffRows from "../components/TariffRows.js";
 import Survey from "../components/Survey.js";
+import FormVacancy from "../components/FormVacancy.js";
 import { swapInputValues } from "../utils/utils.js"
 import {
   toInput,
@@ -30,3 +31,8 @@ const survey = new Survey({
 });
 
 survey.setEventListeners();
+
+//Form
+
+const vacancyForm = new FormVacancy('vacancyForm');
+vacancyForm.setEventListners();
