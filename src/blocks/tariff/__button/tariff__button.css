@@ -7,4 +7,5 @@
   bottom: 30px;
   right: 20px;
   transition: all .4s ease;
+  box-shadow: none;
 }

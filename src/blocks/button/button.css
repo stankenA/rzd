@@ -4,8 +4,9 @@
   border: none;
   cursor: pointer;
   transition: all .4s ease;
-}
-
-.button:hover {
-  opacity: .6;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
 }

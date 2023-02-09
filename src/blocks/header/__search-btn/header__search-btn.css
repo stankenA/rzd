@@ -10,4 +10,9 @@
   right: 1px;
   z-index: 2;
   border-radius: 10px;
+  box-shadow: none;
+}
+
+.header__search-btn:hover {
+  opacity: .6;
 }

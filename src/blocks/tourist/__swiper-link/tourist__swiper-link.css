@@ -1,13 +1,8 @@
 .tourist__swiper-link {
-  background: #FFFFFF;
   border-radius: 20px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   width: 168px;
   height: 38px;
   font-weight: 700;
   font-size: 14px;
   line-height: 17px;
-  color: #394A58;
 }

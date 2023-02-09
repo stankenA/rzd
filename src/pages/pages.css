@@ -11,7 +11,10 @@
 @import url(../blocks/fieldset/fieldset.css);
 @import url(../blocks/input/input.css);
 @import url(../blocks/button/button.css);
+@import url(../blocks/button/_red/button_red.css);
+@import url(../blocks/button/_black/button_black.css);
 @import url(../blocks/button/_back/button_back.css);
+@import url(../blocks/button/_white/button_white.css);
 @import url(../blocks/title/title.css);
 @import url(../blocks/subtitle/subtitle.css);
 @import url(../blocks/txt/txt.css);
@@ -36,7 +39,20 @@
 @import url(../blocks/cards/__img/cards__img.css);
 @import url(../blocks/cards/__title/cards__title.css);
 @import url(../blocks/cards/__subtitle/cards__subtitle.css);
-
+@import url(../blocks/form/form.css);
+@import url(../blocks/form/__wrapper/form__wrapper.css);
+@import url(../blocks/form/__row/form__row.css);
+@import url(../blocks/form/__label/form__label.css);
+@import url(../blocks/form/__input/form__input.css);
+@import url(../blocks/form/__input/_type/_textarea/form__input_type_textarea.css);
+@import url(../blocks/form/__input/_type/_file/form__input_type_file.css);
+@import url(../blocks/form/__txt-block/form__txt-block.css);
+@import url(../blocks/form/__txt/form__txt.css);
+@import url(../blocks/form/__file-label/form__file-label.css);
+@import url(../blocks/form/__file/form__file.css);
+@import url(../blocks/form/__btn/form__btn.css);
+@import url(../blocks/form/__submit-container/form__submit-container.css);
+@import url(../blocks/form/__submit/form__submit.css);
 
 /* Upper header */
 @import url(../blocks/header/header.css);

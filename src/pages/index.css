@@ -9,6 +9,10 @@
 @import url(../blocks/fieldset/fieldset.css);
 @import url(../blocks/input/input.css);
 @import url(../blocks/button/button.css);
+@import url(../blocks/button/_red/button_red.css);
+@import url(../blocks/button/_black/button_black.css);
+@import url(../blocks/button/_back/button_back.css);
+@import url(../blocks/button/_white/button_white.css);
 
 /* Upper header */
 @import url(../blocks/header/header.css);
