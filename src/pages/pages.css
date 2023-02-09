@@ -31,6 +31,12 @@
 @import url(../blocks/alert/alert.css);
 @import url(../blocks/alert/__title/alert__title.css);
 @import url(../blocks/alert/__txt/alert__txt.css);
+@import url(../blocks/cards/cards.css);
+@import url(../blocks/cards/__card/cards__card.css);
+@import url(../blocks/cards/__img/cards__img.css);
+@import url(../blocks/cards/__title/cards__title.css);
+@import url(../blocks/cards/__subtitle/cards__subtitle.css);
+
 
 /* Upper header */
 @import url(../blocks/header/header.css);
