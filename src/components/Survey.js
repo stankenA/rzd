@@ -1,29 +1,25 @@
 export default class Survey {
-  constructor(surveySelector) {
+  constructor({ surveySelector, handleSurvey }) {
     this._survey = document.querySelector(surveySelector);
     this._list = this._survey.querySelector('.survey__list');
     this._results = this._survey.querySelectorAll('.survey__result');
     this._labels = this._survey.querySelectorAll('.survey__label');
+    this._handleSurvey = handleSurvey;
   }
 
-  _showResults() {
+  showResults() {
     this._results.forEach((res) => {
       res.classList.add('survey__result_checked')
     })
   }
 
-  _hideBtns() {
+  hideBtns() {
     this._list.classList.add('survey__list_checked');
   }
 
   setEventListeners() {
     this._labels.forEach((label) => {
-      label.addEventListener('click', () => {
-        setTimeout(() => {
-          this._showResults();
-          this._hideBtns();
-        }, 1000)
-      })
+      label.addEventListener('click', this._handleSurvey);
     })
   }
 }

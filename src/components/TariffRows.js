@@ -4,7 +4,7 @@ export default class TariffRows {
   }
 
   _toggleTxtBlock(txtBlock) {
-    txtBlock.classList.toggle('tariff__txt-block_opened')
+    txtBlock.classList.toggle('table__txt-container_closed')
   }
 
   _toggleButton(btn) {
@@ -15,7 +15,7 @@ export default class TariffRows {
     this._rows.forEach((row) => {
       row.addEventListener('click', () => {
         const button = row.querySelector('.tariff__button');
-        const txtBlock = row.querySelector('.tariff__txt-block');
+        const txtBlock = row.querySelector('.table__txt-container');
         this._toggleTxtBlock(txtBlock);
         this._toggleButton(button);
       })

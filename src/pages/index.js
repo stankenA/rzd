@@ -1,5 +1,6 @@
 import Swiper from 'https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.esm.browser.min.js';
 import Cell from '../components/Cell.js';
+import { swapInputValues } from '../utils/utils.js';
 import {
   toInput,
   fromInput,
@@ -7,14 +8,6 @@ import {
 } from '../utils/constants.js'
 
 // Swap input values
-
-function swapInputValues(firstInput, secondInput) {
-  const firstValue = firstInput.value;
-  const secondValue = secondInput.value;
-
-  firstInput.value = secondValue;
-  secondInput.value = firstValue;
-}
 
 swapBtn.addEventListener('click', () => {
   swapInputValues(toInput, fromInput);
