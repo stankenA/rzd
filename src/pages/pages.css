@@ -5,9 +5,11 @@
 @import url(../blocks/page/page.css);
 @import url(../blocks/link/link.css);
 @import url(../blocks/link/_underline/link_underline.css);
+@import url(../blocks/link/_red/link_red.css);
 @import url(../blocks/list/list.css);
 @import url(../blocks/list/__item/list__item.css);
 @import url(../blocks/list/_marked/list_marked.css);
+@import url(../blocks/list/_red/list_red.css);
 @import url(../blocks/fieldset/fieldset.css);
 @import url(../blocks/input/input.css);
 @import url(../blocks/button/button.css);
@@ -133,6 +135,22 @@
 @import url(../blocks/tariff/__button/tariff__button.css);
 @import url(../blocks/tariff/__button/_opened/tariff__button_opened.css);
 @import url(../blocks/tariff/__subtitle/tariff__subtitle.css);
+
+/* Corporate */
+
+@import url(../blocks/corporate/__grid/corporate__grid.css);
+@import url(../blocks/corporate/__img/corporate__img.css);
+
+/* Press */
+
+@import url(../blocks/press/__card/press__card.css);
+@import url(../blocks/press/__block/press__block.css);
+@import url(../blocks/press/__img/press__img.css);
+@import url(../blocks/press/__post/press__post.css);
+@import url(../blocks/press/__name/press__name.css);
+@import url(../blocks/press/__mail/press__mail.css);
+@import url(../blocks/press/__mail-link/press__mail-link.css);
+@import url(../blocks/press/__btn/press__btn.css);
 
 /* Survey */
 

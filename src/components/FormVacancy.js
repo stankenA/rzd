@@ -9,6 +9,7 @@ export default class FormVacancy {
 
   _showFileName() {
     this._file.textContent = this._formFileInput.files[0].name;
+    this._file.style.color = 'black';
   }
 
   _toggleSymbolsLeft() {
