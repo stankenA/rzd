@@ -181,6 +181,14 @@
 /* Article */
 @import url(../blocks/article/__date/article__date.css);
 @import url(../blocks/article/__img/article__img.css);
+
+/* Contacts */
+@import url(../blocks/contacts/contacts.css);
+@import url(../blocks/contacts/__subtitle/contacts__subtitle.css);
+@import url(../blocks/contacts/__txt/contacts__txt.css);
+@import url(../blocks/contacts/__aside/contacts__aside.css);
+@import url(../blocks/contacts/__map/contacts__map.css);
+
 /* Survey */
 
 @import url(../blocks/survey/survey.css);
