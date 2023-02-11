@@ -189,6 +189,32 @@
 @import url(../blocks/contacts/__aside/contacts__aside.css);
 @import url(../blocks/contacts/__map/contacts__map.css);
 
+/* Photos */
+
+@import url(../blocks/photos/__container/photos__container.css);
+
+/* Media */
+
+@import url(../blocks/media/media.css);
+@import url(../blocks/media/__link/media__link.css);
+@import url(../blocks/media/__card/media__card.css);
+@import url(../blocks/media/__card/_type/_video/media__card_type_video.css);
+@import url(../blocks/media/__card/_type/_newspaper/media__card_type_newspaper.css);
+@import url(../blocks/media/__img/media__img.css);
+@import url(../blocks/media/__img/_type/_newspaper/media__img_type_newspaper.css);
+@import url(../blocks/media/__block/media__block.css);
+@import url(../blocks/media/__date/media__date.css);
+@import url(../blocks/media/__txt/media__txt.css);
+@import url(../blocks/media/__txt/_type/_newspaper/media__txt_type_newspaper.css);
+@import url(../blocks/media/__pagination/media__pagination.css);
+@import url(../blocks/media/__btn/media__btn.css);
+@import url(../blocks/media/__btn/_next/media__btn_next.css);
+@import url(../blocks/media/__btn/_prev/media__btn_prev.css);
+@import url(../blocks/media/__pages/media__pages.css);
+@import url(../blocks/media/__number/media__number.css);
+@import url(../blocks/media/__number/_active/media__number_active.css);
+@import url(../blocks/media/__read/media__read.css);
+
 /* Survey */
 
 @import url(../blocks/survey/survey.css);
