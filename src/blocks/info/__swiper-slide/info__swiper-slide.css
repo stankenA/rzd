@@ -4,3 +4,9 @@
   width: 100%;
   height: 427px;
 }
+
+@media screen and (max-width: 1439px) {
+  .info__swiper-slide {
+    height: 370px;
+  }
+}

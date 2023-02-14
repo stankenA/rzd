@@ -95,7 +95,7 @@
 @import url(../blocks/nav/__link/nav__link.css);
 @import url(../blocks/nav/__link/_active/nav__link_active.css);
 
-/* Side bard schedule */
+/* Side bar and schedule */
 
 @import url(../blocks/schedule/schedule.css);
 @import url(../blocks/schedule/__title/schedule__title.css);

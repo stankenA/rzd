@@ -6,3 +6,11 @@
   border-radius: 10px;
   display: flex;
 }
+
+@media screen and (max-width: 1439px) {
+  .news__card {
+    flex-direction: column;
+    width: 280px;
+    height: 373px;
+  }
+}

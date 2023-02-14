@@ -1,3 +1,9 @@
 .info__cell_opened {
   height: 357px;
 }
+
+@media screen and (max-width: 1439px) {
+  .info__cell_opened {
+    height: 432px;
+  }
+}

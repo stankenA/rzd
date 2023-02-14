@@ -7,3 +7,9 @@
   color: #687988;
   padding-right: 10px;
 }
+
+@media screen and (max-width: 1439px) {
+  .schedule__input_type_date {
+    width: 189px;
+  }
+}

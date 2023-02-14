@@ -4,3 +4,9 @@
   height: 120px;
   flex-wrap: wrap;
 }
+
+@media screen and (max-width: 1439px) {
+  .footer__list {
+    height: 178px;
+  }
+}

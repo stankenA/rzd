@@ -5,3 +5,9 @@
   color: #FFFFFF;
   margin: 44px 0 57px;
 }
+
+@media screen and (max-width: 1439px) {
+  .app__txt {
+    margin: 31px 0;
+  }
+}

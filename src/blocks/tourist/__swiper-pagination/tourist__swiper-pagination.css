@@ -18,3 +18,9 @@
   background: #EE3523;
   border-radius: 10px;
 }
+
+@media screen and (max-width:1439px) {
+  .tourist__swiper-pagination {
+    left: 17% !important;
+  }
+}

@@ -4,3 +4,9 @@
   justify-content: space-between;
   width: 100%;
 }
+
+@media screen and (max-width: 1439px) {
+  .footer__upper {
+    height: 178px;
+  }
+}

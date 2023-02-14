@@ -5,3 +5,10 @@
   color: #FFFFFF;
   margin: 0;
 }
+
+@media screen and (max-width: 1439px) {
+  .info__title {
+    font-size: 30px;
+    line-height: 37px;
+  }
+}

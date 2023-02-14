@@ -7,3 +7,9 @@
   --wrapper-width: 1320px;
   --content-width: 874px;
 }
+
+@media screen and (max-width: 1439px) {
+  .page {
+    --wrapper-width: 970px;
+  }
+}

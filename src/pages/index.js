@@ -77,11 +77,21 @@ cellsArray.forEach((cell) => {
 //Main page tourist swiper
 
 const touristSwiper = new Swiper('.tourist__swiper', {
-  slidesPerView: 4,
-  spaceBetween: 20,
   grabCursor: true,
   pagination: {
     el: ".tourist__swiper-pagination",
     type: "progressbar",
   },
+  breakpoints: {
+    // when window width is >= 320px
+    320: {
+      slidesPerView: 3,
+      spaceBetween: 30,
+    },
+    // when window width is >= 1439px
+    1439: {
+      slidesPerView: 4,
+      spaceBetween: 40
+    }
+  }
 });

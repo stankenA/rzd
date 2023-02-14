@@ -1,0 +1,10 @@
+.app__img {
+  display: block;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 1439px) {
+  .app__img {
+    width: 48%;
+  }
+}
