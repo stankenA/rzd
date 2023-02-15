@@ -11,6 +11,6 @@
     transition: all .8s ease;
     transform: translateY(-100%);
     overflow: hidden;
-    margin-top: -100%;
+    margin-top: -130%;
   }
 }

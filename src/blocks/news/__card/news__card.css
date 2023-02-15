@@ -14,3 +14,10 @@
     height: 373px;
   }
 }
+
+@media screen and (max-width: 1023px) {
+  .news__card {
+    width: 205px;
+    height: 388px;
+  }
+}

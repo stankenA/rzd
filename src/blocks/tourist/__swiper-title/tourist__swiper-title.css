@@ -6,3 +6,9 @@
   margin: 0 0 99px;
   max-width: 80%;
 }
+
+@media screen and (max-width: 1023px) {
+  .tourist__swiper-title {
+    margin-bottom: 24px;
+  }
+}

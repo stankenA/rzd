@@ -4,6 +4,7 @@
 
 /* Common styles */
 @import url(../blocks/page/page.css);
+@import url(../blocks/page/_opened/pages_opened.css);
 @import url(../blocks/link/link.css);
 @import url(../blocks/list/list.css);
 @import url(../blocks/fieldset/fieldset.css);

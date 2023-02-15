@@ -85,6 +85,10 @@ const touristSwiper = new Swiper('.tourist__swiper', {
   breakpoints: {
     // when window width is >= 320px
     320: {
+      slidesPerView: 2,
+      spaceBetween: 40,
+    },
+    1024: {
       slidesPerView: 3,
       spaceBetween: 30,
     },
@@ -121,10 +125,12 @@ const headerWrapper = document.querySelector('.header__wrapper');
 const headerMobileBtn = document.querySelector('.header__mobile-btn');
 const headerRightSide = document.querySelector('.header__right-side');
 const headerUpper = document.querySelector('.header__upper')
+const page = document.querySelector('.page');
 
 headerMobileBtn.addEventListener('click', () => {
   headerWrapper.classList.toggle('header__wrapper_opened');
   headerRightSide.classList.toggle('header__right-side_opened');
   headerMobileBtn.classList.toggle('header__mobile-btn_opened')
   headerUpper.classList.toggle('header__upper_opened');
+  page.classList.toggle('page_opened');
 })
