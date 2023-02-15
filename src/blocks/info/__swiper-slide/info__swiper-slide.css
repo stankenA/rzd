@@ -10,3 +10,9 @@
     height: 370px;
   }
 }
+
+@media screen and (max-width: 1023px) {
+  .info__swiper-slide {
+    height: 330px;
+  }
+}

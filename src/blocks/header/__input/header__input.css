@@ -26,3 +26,9 @@
     width: 200px;
   }
 }
+
+@media screen and (max-width: 1023px) {
+  .header__input {
+    width: 100%;
+  }
+}

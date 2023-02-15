@@ -12,3 +12,10 @@
     width: 178px;
   }
 }
+
+@media screen and (max-width: 1023px) {
+  .schedule__search-btn {
+    width: 100%;
+    margin: 0;
+  }
+}

@@ -6,3 +6,9 @@
   max-width: 246px;
   margin: 0 0 12px 20px;
 }
+
+@media screen and (max-width: 1023px) {
+  .header__logo-txt {
+    color: #FFFFFF;
+  }
+}
