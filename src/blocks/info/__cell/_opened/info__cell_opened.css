@@ -13,3 +13,9 @@
     height: 271px;
   }
 }
+
+@media screen and (max-width: 767px) {
+  .info__cell_opened {
+    height: 271px;
+  }
+}

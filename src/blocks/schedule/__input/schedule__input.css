@@ -17,3 +17,11 @@
     width: 100%;
   }
 }
+
+@media screen and (max-width: 767px) {
+  .schedule__input {
+    height: 43px;
+    font-size: 12px;
+    line-height: 14px;
+  }
+}

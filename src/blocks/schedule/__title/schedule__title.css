@@ -14,3 +14,10 @@
     line-height: 32px;
   }
 }
+
+@media screen and (max-width: 767px) {
+  .schedule__title {
+    font-size: 14px;
+    line-height: 17px;
+  }
+}

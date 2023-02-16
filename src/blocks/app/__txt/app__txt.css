@@ -11,3 +11,11 @@
     margin: 31px 0;
   }
 }
+
+@media screen and (max-width: 767px) {
+  .app__txt {
+    margin: 15px 0;
+    font-size: 16px;
+    line-height: 19px;
+  }
+}

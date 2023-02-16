@@ -19,3 +19,9 @@
     margin: 0;
   }
 }
+
+@media screen and (max-width: 767px) {
+  .schedule__search-btn {
+    height: 43px;
+  }
+}

@@ -12,3 +12,12 @@
     color: #FFFFFF;
   }
 }
+
+@media screen and (max-width: 767px) {
+  .header__logo-txt {
+    font-size: 12px;
+    line-height: 82%;
+    max-width: 42%;
+    margin-bottom: 4px;
+  }
+}

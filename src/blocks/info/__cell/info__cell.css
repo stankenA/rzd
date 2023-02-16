@@ -24,3 +24,14 @@
     height: 89px;
   }
 }
+
+@media screen and (max-width: 767px) {
+  .info__cell {
+    margin-bottom: 10px;
+    height: 110px;
+  }
+
+  .info__cell:first-child {
+    margin-bottom: 10px;
+  }
+}

@@ -12,3 +12,9 @@
     margin-top: 0;
   }
 }
+
+@media screen and (max-width: 767px) {
+  .footer__bottom-txt {
+    margin-left: 0;
+  }
+}

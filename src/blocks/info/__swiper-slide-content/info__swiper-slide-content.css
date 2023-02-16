@@ -8,3 +8,10 @@
     margin-left: 61px;
   }
 }
+
+@media screen and (max-width: 767px) {
+  .info__swiper-slide-content {
+    width: 86%;
+    margin: 34px auto 0;
+  }
+}

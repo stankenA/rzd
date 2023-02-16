@@ -20,3 +20,10 @@
     max-width: 80%;
   }
 }
+
+@media screen and (max-width: 767px) {
+  .info__swiper-title {
+    font-size: 20px;
+    line-height: 25px;
+  }
+}

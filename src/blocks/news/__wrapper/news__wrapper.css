@@ -11,3 +11,9 @@
     width: 92%;
   }
 }
+
+@media screen and (max-width: 767px) {
+  .news__wrapper {
+    padding-top: 15px;
+  }
+}
