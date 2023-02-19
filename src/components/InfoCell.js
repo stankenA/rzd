@@ -1,4 +1,4 @@
-export default class Cell {
+export default class InfoCell {
   constructor(cellSelector, handleClick) {
     this._cell = document.querySelector(cellSelector);
     this._button = this._cell.querySelector('.info__cell-btn');
@@ -25,7 +25,7 @@ export default class Cell {
   }
 
   _checkClientWidth() {
-    if (document.documentElement.clientWidth < 768) {
+    if (document.documentElement.clientWidth <= 768) {
       this.close();
     }
   }
