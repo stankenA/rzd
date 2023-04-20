@@ -11,7 +11,7 @@ import {
 // Swap input values
 swapBtn.addEventListener('click', () => {
   swapInputValues(toInput, fromInput);
-})
+});
 
 //Main page info swiper
 const infoSwiper = new Swiper('.info__swiper', {

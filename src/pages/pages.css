@@ -1,5 +1,6 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts/fonts.css);
+@import url(https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css);
 
 /* Common styles */
 @import url(../blocks/page/page.css);
@@ -60,7 +61,7 @@
 /* Upper header */
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/_opened/header_opened.css);
-@import url(../blocks/header/_opened/header_opened.css);
+@import url(../blocks/header/_main-page/header_main-page.css);
 @import url(../blocks/header/_sticky/header_sticky.css);
 @import url(../blocks/header/__upper/header__upper.css);
 @import url(../blocks/header/__upper/_opened/header__upper_opened.css);
@@ -100,6 +101,101 @@
 @import url(../blocks/header/__input/header__input.css);
 @import url(../blocks/header/__search-btn/header__search-btn.css);
 
+/* Schedule */
+@import url(../blocks/schedule/schedule.css);
+@import url(../blocks/schedule/_hide/schedule_hide.css);
+@import url(../blocks/schedule/__title/schedule__title.css);
+@import url(../blocks/schedule/__title/_sidebar/schedule__title_sidebar.css);
+@import url(../blocks/schedule/__form/schedule__form.css);
+@import url(../blocks/schedule/__form/_sidebar/schedule__form_sidebar.css);
+@import url(../blocks/schedule/__fieldset/schedule__fieldset.css);
+@import url(../blocks/schedule/__fieldset/_sidebar/schedule__fieldset_sidebar.css);
+@import url(../blocks/schedule/__input/schedule__input.css);
+@import url(../blocks/schedule/__input/_type/_date/schedule__input_type_date.css);
+@import url(../blocks/schedule/__input/_sidebar/schedule__input_sidebar.css);
+@import url(../blocks/schedule/__swap-btn/schedule__swap-btn.css);
+@import url(../blocks/schedule/__search/schedule__search.css);
+@import url(../blocks/schedule/__search/_sidebar/schedule__search_sidebar.css);
+@import url(../blocks/schedule/__search-btn/schedule__search-btn.css);
+@import url(../blocks/schedule/__search-btn/_sidebar/schedule__search-btn_sidebar.css);
+@import url(../blocks/schedule/__checkbox-container/schedule__checkbox-container.css);
+@import url(../blocks/schedule/__checkbox-txt/schedule__checkbox-txt.css);
+@import url(../blocks/schedule/__checkbox-label/schedule__checkbox-label.css);
+@import url(../blocks/schedule/__checkbox/schedule__checkbox.css);
+@import url(../blocks/schedule/__checkmark/schedule__checkmark.css);
+@import url(../blocks/schedule-main/schedule-main.css);
+
+@import url(../blocks/index-content/index-content.css);
+
+@import url(../blocks/info/info.css);
+@import url(../blocks/info/__block/info__block.css);
+@import url(../blocks/info/__swiper-slide/info__swiper-slide.css);
+@import url(../blocks/info/__swiper-slide-content/info__swiper-slide-content.css);
+@import url(../blocks/info/__swiper-img/info__swiper-img.css);
+@import url(../blocks/info/__swiper-title/info__swiper-title.css);
+@import url(../blocks/info/__swiper-link/info__swiper-link.css);
+@import url(../blocks/info/__swiper-button/info__swiper-button.css);
+@import url(../blocks/info/__swiper-button/_next/info__swiper-button_next.css);
+@import url(../blocks/info/__swiper-button/_prev/info__swiper-button_prev.css);
+@import url(../blocks/info/__swiper-pagination/info__swiper-pagination.css);
+
+@import url(../blocks/info/__cells/info__cells.css);
+@import url(../blocks/info/__column/info__column.css);
+@import url(../blocks/info/__list/info__list.css);
+@import url(../blocks/info/__list/_opened/info__list_opened.css);
+@import url(../blocks/info/__list/_type/_director/info__list_type_director.css);
+@import url(../blocks/info/__list-item/info__list-item.css);
+@import url(../blocks/info/__list-img/info__list-img.css);
+@import url(../blocks/info/__cell/info__cell.css);
+@import url(../blocks/info/__cell/_opened/info__cell_opened.css);
+@import url(../blocks/info/__cell/_type/_director/info__cell_type_director.css);
+@import url(../blocks/info/__cell/_type/_economy/info__cell_type_economy.css);
+@import url(../blocks/info/__cell/_type/_low-mob/info__cell_type_low-mob.css);
+@import url(../blocks/info/__cell/_type/_privilege/info__cell_type_privilege.css);
+@import url(../blocks/info/__cell/_type/_scheme/info__cell_type_scheme.css);
+@import url(../blocks/info/__cell/_type/_work/info__cell_type_work.css);
+@import url(../blocks/info/__title/info__title.css);
+@import url(../blocks/info/__link/info__link.css);
+@import url(../blocks/info/__link-director/info__link-director.css);
+@import url(../blocks/info/__cell-btn/info__cell-btn.css);
+@import url(../blocks/info/__cell-btn/_rotate/info__cell-btn_rotate.css);
+
+@import url(../blocks/news/news.css);
+@import url(../blocks/news/__wrapper/news__wrapper.css);
+@import url(../blocks/news/__title/news__title.css);
+@import url(../blocks/news/__card-container/news__card-container.css);
+@import url(../blocks/news/__card/news__card.css);
+@import url(../blocks/news/__img/news__img.css);
+@import url(../blocks/news/__card-content/news__card-content.css);
+@import url(../blocks/news/__card-date/news__card-date.css);
+@import url(../blocks/news/__card-brief/news__card-brief.css);
+@import url(../blocks/news/__card-link/news__card-link.css);
+@import url(../blocks/news/__list-item/news__list-item.css);
+@import url(../blocks/news/__link/news__link.css);
+@import url(../blocks/news/__date/news__date.css);
+@import url(../blocks/news/__txt/news__txt.css);
+@import url(../blocks/news/__list/news__list.css);
+@import url(../blocks/news/__see-all-link/news__see-all-link.css);
+
+@import url(../blocks/tourist/tourist.css);
+@import url(../blocks/tourist/__title/tourist__title.css);
+@import url(../blocks/tourist/__block/tourist__block.css);
+@import url(../blocks/tourist/__swiper-slide/tourist__swiper-slide.css);
+@import url(../blocks/tourist/__swiper-slide-content/tourist__swiper-slide-content.css);
+@import url(../blocks/tourist/__swiper-img/tourist__swiper-img.css);
+@import url(../blocks/tourist/__swiper-title/tourist__swiper-title.css);
+@import url(../blocks/tourist/__swiper-link/tourist__swiper-link.css);
+@import url(../blocks/tourist/__swiper-pagination/tourist__swiper-pagination.css);
+
+@import url(../blocks/app/app.css);
+@import url(../blocks/app/__wrapper/app__wrapper.css);
+@import url(../blocks/app/__container/app__container.css);
+@import url(../blocks/app/__title/app__title.css);
+@import url(../blocks/app/__txt/app__txt.css);
+@import url(../blocks/app/__buttons/app__buttons.css);
+@import url(../blocks/app/__link/app__link.css);
+@import url(../blocks/app/__img/app__img.css);
+
 /* Content/wrapper */
 @import url(../blocks/wrapper/wrapper.css);
 @import url(../blocks/wrapper/_flex/wrapper_flex.css);
@@ -114,45 +210,18 @@
 @import url(../blocks/nav/__link/nav__link.css);
 @import url(../blocks/nav/__link/_active/nav__link_active.css);
 
-/* Side bar and schedule */
-
-@import url(../blocks/schedule/schedule.css);
-@import url(../blocks/schedule/__title/schedule__title.css);
-@import url(../blocks/schedule/__title/_sidebar/schedule__title_sidebar.css);
-@import url(../blocks/schedule/__form/_sidebar/schedule__form_sidebar.css);
-@import url(../blocks/schedule/__fieldset/schedule__fieldset.css);
-@import url(../blocks/schedule/__fieldset/_sidebar/schedule__fieldset_sidebar.css);
-@import url(../blocks/schedule/__input/schedule__input.css);
-@import url(../blocks/schedule/__input/_type/_date/schedule__input_type_date.css);
-@import url(../blocks/schedule/__input/_sidebar/schedule__input_sidebar.css);
-@import url(../blocks/schedule/__swap-btn/schedule__swap-btn.css);
-@import url(../blocks/schedule/__search/_sidebar/schedule__search_sidebar.css);
-@import url(../blocks/schedule/__search-btn/schedule__search-btn.css);
-@import url(../blocks/schedule/__search-btn/_sidebar/schedule__search-btn_sidebar.css);
-@import url(../blocks/schedule/__checkbox-container/schedule__checkbox-container.css);
-@import url(../blocks/schedule/__checkbox-txt/schedule__checkbox-txt.css);
-@import url(../blocks/schedule/__checkbox-label/schedule__checkbox-label.css);
-@import url(../blocks/schedule/__checkbox/schedule__checkbox.css);
-@import url(../blocks/schedule/__checkmark/schedule__checkmark.css);
-@import url(../blocks/schedule/__form/schedule__form.css);
-@import url(../blocks/schedule/__search/schedule__search.css);
-@import url(../blocks/schedule/_hide/schedule_hide.css);
-
 /* Breadcrumbs */
-
 @import url(../blocks/breadcrumbs/breadcrumbs.css);
 @import url(../blocks/breadcrumbs/__link/breadcrumbs__link.css);
 @import url(../blocks/breadcrumbs/__link/_active/breadcrumbs__link_active.css);
 @import url(../blocks/breadcrumbs/__line/breadcrumbs__line.css);
 
 /* Tariff */
-
 @import url(../blocks/tariff/__container/tariff__container.css);
 @import url(../blocks/tariff/__tooltip/tariff__tooltip.css);
 @import url(../blocks/tariff/__tooltip-icon/tariff__tooltip-icon.css);
 @import url(../blocks/tariff/__tooltip-content/tariff__tooltip-content.css);
 @import url(../blocks/tariff/__tooltip-txt/tariff__tooltip-txt.css);
-@import url(../blocks/tariff/__txt-block/_closed/tariff__txt-block_closed.css);
 @import url(../blocks/tariff/__row/_clickable/tariff__row_clickable.css);
 @import url(../blocks/tariff/__variant/tariff__variant.css);
 @import url(../blocks/tariff/__button/tariff__button.css);
@@ -160,12 +229,10 @@
 @import url(../blocks/tariff/__subtitle/tariff__subtitle.css);
 
 /* Corporate */
-
 @import url(../blocks/corporate/__grid/corporate__grid.css);
 @import url(../blocks/corporate/__img/corporate__img.css);
 
 /* Press */
-
 @import url(../blocks/press/__card/press__card.css);
 @import url(../blocks/press/__block/press__block.css);
 @import url(../blocks/press/__img/press__img.css);
@@ -176,7 +243,6 @@
 @import url(../blocks/press/__btn/press__btn.css);
 
 /* News */
-
 @import url(../blocks/news/news.css);
 @import url(../blocks/news/__wrapper/news__wrapper.css);
 @import url(../blocks/news/__title/news__title.css);
@@ -212,12 +278,7 @@
 @import url(../blocks/contacts/__aside/contacts__aside.css);
 @import url(../blocks/contacts/__map/contacts__map.css);
 
-/* Photos */
-
-@import url(../blocks/photos/__container/photos__container.css);
-
 /* Media */
-
 @import url(../blocks/media/media.css);
 @import url(../blocks/media/__link/media__link.css);
 @import url(../blocks/media/__card/media__card.css);
@@ -239,7 +300,6 @@
 @import url(../blocks/media/__read/media__read.css);
 
 /* Survey */
-
 @import url(../blocks/survey/survey.css);
 @import url(../blocks/survey/__wrapper/survey__wrapper.css);
 @import url(../blocks/survey/__subtitle/survey__subtitle.css);
