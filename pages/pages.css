@@ -339,3 +339,6 @@
 @import url(../blocks/footer/__bottom/footer__bottom.css);
 @import url(../blocks/footer/__bottom-txt/footer__bottom-txt.css);
 @import url(../blocks/footer/__bottom-img/footer__bottom-img.css);
+
+@import url(../blocks/timetable.css);
+@import url(../blocks/qa.css);

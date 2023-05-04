@@ -5,6 +5,7 @@
   color: #000000;
   margin-top: 9px;
   cursor: pointer;
+  max-width: 175px;
 }
 
 @media screen and (max-width: 1439px) {

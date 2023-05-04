@@ -6,8 +6,86 @@
   --input-width: 460px;
 }
 
+.form__radio-btns {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  width: var(--input-width);
+  justify-content: space-between;
+}
+
+.form__radio-container {
+  position: relative;
+  padding-left: 25px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: rgba(0, 0, 0, 0.39);
+  cursor: pointer;
+}
+
+.form__radio-container input {
+  opacity: 0;
+  position: absolute;
+}
+
+.form__radio-checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  border: 1px solid #000000;
+}
+
+.form__radio-checkmark::after {
+  position: absolute;
+  display: block;
+  opacity: 0;
+  visibility: hidden;
+  content: '';
+  top: 3px;
+  left: 3px;
+  width: 12px;
+  height: 12px;
+  background-color: #000;
+  border-radius: 50%;
+  transition: all .4s ease;
+}
+
+.form__radio-container input:checked~.form__radio-checkmark::after {
+  visibility: visible;
+  opacity: 1;
+}
+
+.form__response {
+  display: flex;
+  margin-left: auto;
+  justify-content: flex-end;
+  width: var(--input-width);
+}
+
+.form__radio-btns_response {
+  gap: 16px;
+  margin-bottom: 21px;
+}
+
+.form__radio-btns_response .form__radio-container {
+  padding-left: 35px;
+}
+
+
+
 @media screen and (max-width: 767px) {
   .form {
     --input-width: 100%;
+  }
+
+  .form__radio-btns {
+    align-items: flex-start;
+    gap: 10px;
+    margin-top: 5px;
+    flex-direction: column;
   }
 }

@@ -6,7 +6,7 @@ import {
   toInput,
   fromInput,
   swapBtn
-} from '../utils/constants.js'
+} from '../utils/constants.js';
 
 // Swap input values
 swapBtn.addEventListener('click', () => {

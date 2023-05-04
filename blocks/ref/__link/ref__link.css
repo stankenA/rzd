@@ -11,6 +11,17 @@
   box-sizing: border-box;
   padding-left: 33px;
   padding-right: 33px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  transition: all .4s ease;
+}
+
+.ref__link::after {
+  content: '';
+  background: url(../../../images/icon__ref_black.svg) no-repeat center;
+  width: 24px;
+  height: 24px;
+  display: block;
   transition: all .4s ease;
 }
 
@@ -20,13 +31,8 @@
   color: #fff;
 }
 
-.ref__link:hover .ref__txt::after {
-  content: '';
-  background: url(../../../images/icon__ref_white.svg) no-repeat center;
-  width: 24px;
-  height: 24px;
-  display: block;
-  transition: all .4s ease;
+.ref__link:hover.ref__link::after {
+  background-image: url(../../../images/icon__ref_white.svg);
 }
 
 @media screen and (max-width: 767px) {
