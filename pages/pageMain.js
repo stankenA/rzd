@@ -131,3 +131,9 @@ const touristSwiper = new Swiper('.tourist__swiper', {
 // Mobile menu
 const mobileMenu = new MobileMenu('.header', '.page');
 mobileMenu.setEventListeners();
+
+// Default date
+
+const date = new Date();
+const calendarInput = document.querySelector('#when');
+calendarInput.valueAsDate = date;
