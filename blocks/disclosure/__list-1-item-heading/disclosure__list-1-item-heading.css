@@ -1,0 +1,11 @@
+.disclosure__list-1-item-heading {
+  width: 98%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.disclosure__list-1-item-heading:hover .disclosure__link {
+  text-decoration: underline;
+}

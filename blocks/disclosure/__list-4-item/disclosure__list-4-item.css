@@ -1,0 +1,7 @@
+.disclosure__list-4-item {
+  margin-bottom: 10px;
+}
+
+.disclosure__list-4-item:hover .disclosure__link {
+  text-decoration: underline;
+}

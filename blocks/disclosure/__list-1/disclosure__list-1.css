@@ -1,0 +1,6 @@
+.disclosure__list-1 {
+  margin-top: 10px;
+  margin-left: 10px;
+  transition: all .4s ease;
+  display: none;
+}

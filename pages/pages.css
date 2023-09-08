@@ -340,6 +340,31 @@
 @import url(../blocks/footer/__bottom-txt/footer__bottom-txt.css);
 @import url(../blocks/footer/__bottom-img/footer__bottom-img.css);
 
+/* Disclosure */
+@import url(../blocks/disclosure/__arrow/disclosure__arrow.css);
+@import url(../blocks/disclosure/__arrow/_opened/disclosure__arrow_opened.css);
+@import url(../blocks/disclosure/__link/disclosure__link.css);
+@import url(../blocks/disclosure/__list/disclosure__list.css);
+@import url(../blocks/disclosure/__list-1/disclosure__list-1.css);
+@import url(../blocks/disclosure/__list-1/_opened/disclosure__list-1_opened.css);
+@import url(../blocks/disclosure/__list-1-item/disclosure__list-1-item.css);
+@import url(../blocks/disclosure/__list-1-item-heading/disclosure__list-1-item-heading.css);
+@import url(../blocks/disclosure/__list-2/disclosure__list-2.css);
+@import url(../blocks/disclosure/__list-2/_opened/disclosure__list-2_opened.css);
+@import url(../blocks/disclosure/__list-2-item/disclosure__list-2-item.css);
+@import url(../blocks/disclosure/__list-2-item-heading/disclosure__list-2-item-heading.css);
+@import url(../blocks/disclosure/__list-3/disclosure__list-3.css);
+@import url(../blocks/disclosure/__list-3/_opened/disclosure__list-3_opened.css);
+@import url(../blocks/disclosure/__list-3-item/disclosure__list-3-item.css);
+@import url(../blocks/disclosure/__list-3-item-heading/disclosure__list-3-item-heading.css);
+@import url(../blocks/disclosure/__list-4/disclosure__list-4.css);
+@import url(../blocks/disclosure/__list-4/_opened/disclosure__list-4_opened.css);
+@import url(../blocks/disclosure/__list-4-item/disclosure__list-4-item.css);
+@import url(../blocks/disclosure/__row/disclosure__row.css);
+@import url(../blocks/disclosure/__row-heading/disclosure__row-heading.css);
+@import url(../blocks/disclosure/__row-title/disclosure__row-title.css);
+
 @import url(../blocks/timetable.css);
 @import url(../blocks/qa.css);
 @import url(../blocks/disclosure.css);
+@import url(../blocks/route-table.css);

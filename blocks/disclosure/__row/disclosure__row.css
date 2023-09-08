@@ -1,0 +1,8 @@
+.disclosure__row {
+  box-sizing: border-box;
+  padding: 25px;
+  background-color: #fff;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  font-weight: 700;
+}

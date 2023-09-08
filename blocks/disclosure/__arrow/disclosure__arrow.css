@@ -1,0 +1,8 @@
+.disclosure__arrow {
+  width: 24px;
+  height: 24px;
+  background: url(../../../images/icon__bottom-arrow_black.svg) no-repeat center;
+  display: block;
+  transition: all .4s ease;
+  box-shadow: none;
+}
