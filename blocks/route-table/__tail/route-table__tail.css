@@ -1,0 +1,17 @@
+.route-table__tail {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 35%;
+}
+
+.route-table__tail .route-table__txt {
+  text-align: center;
+}
+
+@media screen and (max-width: 1023px) {
+
+  .route-table__tail {
+    width: 38%;
+  }
+}

@@ -1,0 +1,22 @@
+.timetable__button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 100%;
+  height: 48px;
+  background: #394A58;
+  color: #fff;
+  border-radius: 10px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+}
+
+@media screen and (max-width: 767px) {
+  .timetable__button {
+    font-size: 14px;
+    line-height: 17px;
+    height: 40px;
+  }
+}

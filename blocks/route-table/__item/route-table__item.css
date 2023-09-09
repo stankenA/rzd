@@ -1,0 +1,18 @@
+.route-table__item {
+  background: #FFFFFF;
+  border-radius: 10px;
+  padding: 16px 54px 16px 48px;
+  box-sizing: border-box;
+  min-height: 52px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 1023px) {
+
+  .route-table__item {
+    padding: 5px 15px;
+  }
+}

@@ -364,7 +364,53 @@
 @import url(../blocks/disclosure/__row-heading/disclosure__row-heading.css);
 @import url(../blocks/disclosure/__row-title/disclosure__row-title.css);
 
-@import url(../blocks/timetable.css);
-@import url(../blocks/qa.css);
-@import url(../blocks/disclosure.css);
-@import url(../blocks/route-table.css);
+/* Questions */
+@import url(../blocks/questions/__arrow/questions__arrow.css);
+@import url(../blocks/questions/__arrow/_opened/);
+@import url(../blocks/questions/__button/questions__button.css);
+@import url(../blocks/questions/__button/_opened/questions__button_opened.css);
+@import url(../blocks/questions/__button-txt/questions__button-txt.css);
+@import url(../blocks/questions/__container/questions__container.css);
+@import url(../blocks/questions/__container/_opened/questions__container_opened.css);
+@import url(../blocks/questions/__item/questions__item.css);
+@import url(../blocks/questions/__question/questions__question.css);
+@import url(../blocks/questions/__title/questions__title.css);
+
+/* Route table */
+@import url(../blocks/route-table/route-table.css);
+@import url(../blocks/route-table/__header/route-table__header.css);
+@import url(../blocks/route-table/__item/route-table__item.css);
+@import url(../blocks/route-table/__tail/route-table__tail.css);
+@import url(../blocks/route-table/__title/route-table__title.css);
+@import url(../blocks/route-table/__title/_first/route-table__title_first.css);
+@import url(../blocks/route-table/__txt/route-table__txt.css);
+
+/* Timetable */
+
+@import url(../blocks/timetable/timetable.css);
+@import url(../blocks/timetable/__arrival/timeable__arrival.css);
+@import url(../blocks/timetable/__arrow/timeable__arrow.css);
+@import url(../blocks/timetable/__booklet/timeable__booklet.css);
+@import url(../blocks/timetable/__bottom/timeable__bottom.css);
+@import url(../blocks/timetable/__button/timeable__button.css);
+@import url(../blocks/timetable/__center/timeable__center.css);
+@import url(../blocks/timetable/__city/timeable__city.css);
+@import url(../blocks/timetable/__column/timeable__column.css);
+@import url(../blocks/timetable/__column-arrow/timeable__column-arrow.css);
+@import url(../blocks/timetable/__column-arrow/_opened/timeable__column-arrow_opened.css);
+@import url(../blocks/timetable/__column-item/timeable__column-item.css);
+@import url(../blocks/timetable/__column-list/timeable__column-list.css);
+@import url(../blocks/timetable/__column-list/_opened/timeable__column-list_opened.css);
+@import url(../blocks/timetable/__column-txt/timeable__column-txt.css);
+@import url(../blocks/timetable/__column-txt/_bold/timeable__column-txt_bold.css);
+@import url(../blocks/timetable/__departure/timeable__departure.css);
+@import url(../blocks/timetable/__info/timetable__info.css);
+@import url(../blocks/timetable/__item/timeable__item.css);
+@import url(../blocks/timetable/__number/timeable__number.css);
+@import url(../blocks/timetable/__price/timeable__price.css);
+@import url(../blocks/timetable/__stops-info/timeable__stops-info.css);
+@import url(../blocks/timetable/__time/timeable__time.css);
+@import url(../blocks/timetable/__top/timeable__top.css);
+@import url(../blocks/timetable/__trains/timeable__trains.css);
+@import url(../blocks/timetable/__travel-time/timeable__travel-time.css);
+@import url(../blocks/timetable/__txt/timeable__txt.css);

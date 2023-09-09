@@ -1,0 +1,9 @@
+.timetable__item {
+  width: 100%;
+  box-sizing: border-box;
+  min-height: 193px;
+  border-radius: 20px;
+  background-color: #fff;
+  overflow: hidden;
+  margin-bottom: 20px;
+}

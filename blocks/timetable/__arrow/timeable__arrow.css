@@ -1,0 +1,27 @@
+.timetable__arrow {
+  width: 100%;
+  border-bottom: 2px solid #394A58;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  position: relative;
+}
+
+.timetable__arrow::after {
+  content: '';
+  position: absolute;
+  right: 0;
+  top: -3px;
+  width: 10px;
+  border-bottom: 2px solid #394A58;
+  transform: rotate(30deg);
+}
+
+.timetable__arrow::before {
+  content: '';
+  position: absolute;
+  right: 0;
+  top: 3px;
+  width: 10px;
+  border-bottom: 2px solid #394A58;
+  transform: rotate(-30deg);
+}

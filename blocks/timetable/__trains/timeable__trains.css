@@ -1,0 +1,14 @@
+.timetable__trains {
+  margin: 0 auto 5px;
+  text-align: center;
+  color: #EE3523;
+  max-width: 90%;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 767px) {
+
+  .timetable__trains {
+    font-size: 18px;
+  }
+}

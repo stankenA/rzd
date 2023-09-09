@@ -1,0 +1,8 @@
+.questions__item {
+  width: 100%;
+  box-sizing: border-box;
+  background-color: #D9D9D9;
+  border-radius: 20px;
+  padding: 30px;
+  margin-bottom: 20px;
+}

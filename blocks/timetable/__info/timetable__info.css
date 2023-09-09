@@ -1,0 +1,6 @@
+@media screen and (max-width: 767px) {
+
+  .timetable__info {
+    max-width: 127px;
+  }
+}

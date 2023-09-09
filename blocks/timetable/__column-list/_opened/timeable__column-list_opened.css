@@ -1,0 +1,11 @@
+.timetable__column-list_opened {
+  padding-top: 25px;
+}
+
+@media screen and (max-width: 767px) {
+
+  .timetable__column-list_opened {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+}

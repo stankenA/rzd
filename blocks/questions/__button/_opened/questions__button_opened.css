@@ -1,0 +1,7 @@
+.questions__button_opened {
+  background: #fff;
+  color: #EE3523;
+  border: 1px solid #EE3523;
+  box-shadow: none;
+  opacity: 1;
+}

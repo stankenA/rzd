@@ -1,0 +1,17 @@
+.timetable__column-item {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+
+.timetable__column-item:last-of-type {
+  padding-bottom: 25px;
+}
+
+@media screen and (max-width: 767px) {
+
+  .timetable__column-item:last-of-type {
+    padding-bottom: 10px;
+  }
+}

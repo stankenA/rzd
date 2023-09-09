@@ -1,0 +1,13 @@
+.timetable__travel-time {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+@media screen and (max-width: 767px) {
+
+  .timetable__travel-time {
+    font-size: 14px;
+    line-height: 17px;
+  }
+}

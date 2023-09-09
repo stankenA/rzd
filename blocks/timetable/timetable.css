@@ -1,0 +1,4 @@
+.timetable {
+  margin: 20px auto 64px;
+  width: var(--wrapper-width);
+}

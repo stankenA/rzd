@@ -1,0 +1,16 @@
+.questions__button {
+  width: 211px;
+  height: 38px;
+  border-radius: 20px;
+}
+
+.questions__button:hover .questions__arrow {
+  background-image: url(../images/qa__arrow-red.svg);
+}
+
+@media screen and (max-width: 767px) {
+
+  .questions__button {
+    margin: 0 auto;
+  }
+}

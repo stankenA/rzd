@@ -1,0 +1,7 @@
+.questions__arrow {
+  width: 14px;
+  height: 14px;
+  background: url(../images/qa__arrow-white.svg) no-repeat center / contain;
+  margin-left: 12px;
+  transition: all .4s ease;
+}

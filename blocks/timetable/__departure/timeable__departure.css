@@ -1,0 +1,12 @@
+.timetable__departure {
+  grid-area: dep;
+  max-width: 150px;
+  align-self: flex-start;
+}
+
+@media screen and (max-width: 767px) {
+
+  .timetable__departure {
+    max-width: 112px;
+  }
+}

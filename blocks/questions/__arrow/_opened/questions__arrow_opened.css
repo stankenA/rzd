@@ -1,0 +1,4 @@
+.questions__arrow_opened {
+  background-image: url(../images/qa__arrow-red.svg);
+  transform: rotate(180deg);
+}

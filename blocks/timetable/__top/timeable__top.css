@@ -1,0 +1,19 @@
+.timetable__top {
+  color: #fff;
+  background-color: #7F7F7F;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 8px 54px;
+  margin-bottom: 21px;
+}
+
+@media screen and (max-width: 767px) {
+
+  .timetable__top {
+    padding-left: 15px;
+    padding-right: 15px;
+    align-items: flex-end;
+  }
+}
